@@ -1,0 +1,25 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Your Chosen Font', sans-serif; /* Optional: Set a specific font-family */
+}
+
+/* Add your styling for different views here */
+/* Desktop View */
+@media screen and (min-width: 992px) {
+    /* Your styles for desktop view */
+}
+
+/* Tablet View */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Your styles for tablet view */
+}
+
+/* Mobile View */
+@media screen and (max-width: 767px) {
+    /* Your styles for mobile view */
+}
