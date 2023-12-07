@@ -7,7 +7,7 @@ body {
 
 .menu-container {
     text-align: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 h1 {
@@ -15,21 +15,23 @@ h1 {
 }
 
 .menu-item {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    background-color: #999999;
+    border: 2px solid #000000;
     border-radius: 8px;
     padding: 20px;
     margin-top: 20px;
-    box-sizing: border-box; /* Ensure padding is included in the width */
+    box-sizing: border-box;
     position: relative;
+    color: #000000; /* Set text color to black in the main rectangle */
+    font-weight: bold; /* Make the text in the main rectangle bold */
 }
 
-h2 {
-    color: #555;
+h3 {
+    color: #000000;
 }
 
 p {
-    color: #777;
+    color: #000000; /* Updated text color to black */
 }
 
 /* Responsive Media Queries */
@@ -71,23 +73,25 @@ p {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    background-color: #000000;
+    border: 2px solid #000000;
 }
 
-.menu-item .title-rectangle h2 {
+.menu-item .title-rectangle h3 {
     margin: 0;
 }
 
 /* Chicken styling */
 .menu-item.chicken .title-rectangle {
-    background-color: #FF69B4; /* Pink */
+    background-color: #D59898; /* Pink */
 }
 
 /* Beef styling */
 .menu-item.beef .title-rectangle {
-    background-color: #FF0000; /* Red */
+    background-color: #C14543; /* Red */
 }
 
 /* Sushi styling */
 .menu-item.sushi .title-rectangle {
-    background-color: #FFFF00; /* Yellow */
+    background-color: #FFFFFF; /* Yellow */
 }
