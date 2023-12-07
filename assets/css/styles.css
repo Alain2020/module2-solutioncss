@@ -32,6 +32,7 @@ h3 {
 
 p {
     color: #000000; /* Updated text color to black */
+    margin-top: 10px; /* Add margin-top for better spacing */
 }
 
 /* Responsive Media Queries */
@@ -79,6 +80,7 @@ p {
 
 .menu-item .title-rectangle h3 {
     margin: 0;
+    color: #FFFFFF; /* Set text color to white in the title rectangle */
 }
 
 /* Chicken styling */
@@ -93,5 +95,5 @@ p {
 
 /* Sushi styling */
 .menu-item.sushi .title-rectangle {
-    background-color: #FFFFFF; /* Yellow */
+    background-color: #FFFF00; /* Yellow */
 }
